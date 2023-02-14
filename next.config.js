@@ -10,7 +10,7 @@ const nextConfig = {
         name: "next-mfe",
         filename: "static/chunks/remoteEntry.js",
         exposes: {
-          "./index": "./src/pages/index.ts",
+          "./index": "./src/pages/index.tsx",
         },
         shared: {},
       })
